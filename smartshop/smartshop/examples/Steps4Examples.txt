@@ -1,0 +1,37 @@
+﻿Σειρά ενεργειών για τη δοκιμή/εκτέλεση των παραδειγμάτων PHP
+
+[1] Κάντε extract τα πηγαία (.php) σε ένα κατάλογο (έστω examples) κάτω από τον βασικό κατάλογο του Apache
+(C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\examples\)
+
+[2] Στον browser εισάγετε τη διεύθυνση http://localhost/examples/πηγαίο.php
+(αντικαθιστόντας κάθε φορά το πηγαίο.php με ένα από τα επόμενα)
+
+phpinfo.php
+
+app1_form_php.php (σε συνδυασμό με το app1_action_php.php)
+
+querystring_php.php
+
+QueryString_and_Select.php
+
+form_post.php
+
+form_post_multivalue.php
+
+Select_and_post_form.php (σε συνδυασμό με το Select_and_post_action.php)
+
+[3] Κάντε restore στο ΣΔΒΔ  MySQL τη βάση "test" από το test.sql
+(Στα επόμενα πηγαία η σύνδεση γίνεται με "root" / "nnk". Αντικαταστήστε ανάλογα με τη δική σας MySQL εγκατάσταση.)
+
+[4] Συνεχίστε τις δοκιμές με τα επόμενα πηγαία
+
+dbretrieve.php
+
+dbretrieve_v2.php
+
+MembersRetrieve.php
+
+MembersInsert.php
+
+MembersSortedRetrieve.php
+
